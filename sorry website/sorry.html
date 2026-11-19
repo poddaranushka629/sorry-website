@@ -1,0 +1,297 @@
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial- scale=1.0">
+
+<title>I'M SORRY❤️</title>
+
+<style>
+{box-sizing: border-box;
+margin:0;
+padding: 0}
+
+body
+{min-height: 100vh;
+font-family: "Poppins", Arial, sans-serif;
+background: linear-gradient(135deg,#ffe6ec, #fff5f7, #ffdce5);
+color: #4a252d;
+overflow-x: hidden;}
+
+/* MOVING SORRY TEXT */
+    .moving-text {
+        width: 100%;
+        overflow: hidden;
+        background: #d94f70;
+        color: white;
+        padding: 10px 0;
+        font-size: 18px;
+        font-weight: bold;
+        white-space: nowrap;
+    }
+.moving-text span 
+        {display: inline-block;
+        animation: moveText 12s linear infinite}
+    
+@keyframes moveText {
+        from 
+           { transform: translateX(100%)}
+ to {transform: translateX(-100%);}
+ /* MAIN PAGE */
+    .container 
+       {width: 90%;
+        max-width: 900px;
+        margin: 40px auto;
+        text-align: center}
+
+h1  {font-size: 42px;
+        color: #c83f60;
+        margin-bottom: 10px;}
+
+    .subtitle {font-size: 17px;
+        color: #70434c;
+        margin-bottom: 30px;}
+
+/* PHOTOS */
+    .photos {
+        display: flex;
+        justify-content: center;
+        gap: 18px;
+        flex-wrap: wrap;
+        margin-bottom: 35px;
+    }
+
+    .photos img {
+        width: 240px;
+        height: 280px;
+        object-fit: cover;
+        border-radius: 20px;
+        box-shadow: 0 8px 25px rgba(120, 40, 60, 0.25);
+        transition: 0.3s;
+    }
+
+    .photos img:hover {
+        transform: scale(1.04) rotate(-1deg);
+    }
+
+    /* BUTTON */
+    .open-btn {
+        border: none;
+        background: #d94f70;
+        color: white;
+        padding: 15px 30px;
+        border-radius: 30px;
+        font-size: 17px;
+        font-weight: bold;
+        cursor: pointer;
+        box-shadow: 0 6px 15px rgba(150, 50, 75, 0.3);
+        transition: 0.3s;
+    }
+
+    .open-btn:hover {
+        transform: translateY(-3px);
+        background: #c83f60;
+    }
+
+    /* LETTER */
+    #letter {
+        display: none;
+        max-width: 700px;
+        margin: 35px auto;
+        background: rgba(255,255,255,0.9);
+        padding: 35px;
+        border-radius: 25px;
+        box-shadow: 0 10px 35px rgba(100, 40, 60, 0.2);
+        text-align: left;
+        animation: appear 0.8s ease;
+    }
+
+    @keyframes appear {
+        from {
+            opacity: 0;
+            transform: translateY(30px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    #letter h2 {
+        text-align: center;
+        color: #c83f60;
+        margin-bottom: 20px;
+    }
+
+    #letter p {
+        font-size: 16px;
+        line-height: 1.8;
+        margin-bottom: 15px;
+    }
+
+    .signature {
+        text-align: right;
+        font-weight: bold;
+        color: #c83f60;
+        margin-top: 25px;
+    }
+
+    /* FLOATING HEARTS */
+    .heart {
+        position: fixed;
+        bottom: -20px;
+        font-size: 20px;
+        animation: float 6s linear infinite;
+        opacity: 0.6;
+        pointer-events: none;
+    }
+
+    @keyframes float {
+        0% {
+            transform: translateY(0);
+            opacity: 0;
+        }
+
+        20% {
+            opacity: 0.7;
+        }
+
+        100% {
+            transform: translateY(-100vh);
+            opacity: 0;
+        }
+    }
+
+    @media(max-width: 600px) {
+        h1 {
+            font-size: 32px;
+        }
+
+        .photos img {
+            width: 85%;
+            height: 250px;
+        }
+
+        #letter {
+            padding: 25px;
+        }
+    }
+</style>
+</head>
+
+<body>
+
+<!-- MOVING TEXT -->
+<div class="moving-text">
+    <span>
+        I'M SORRY ❤️ I'M SORRY ❤️ I'M SORRY ❤️ I'M SORRY ❤️ I'M SORRY ❤️
+    </span>
+</div>
+
+<div class="container">
+
+    <h1>For the person I never want to lose ❤️</h1>
+
+    <p class="subtitle">
+        I know a simple "sorry" isn't enough... but please hear me out.
+    </p>
+
+    <!-- YOUR PHOTOS -->
+    <div class="photos">
+
+        <!-- Replace these with your actual photo filenames -->
+        <img src="photo1.jpeg" alt="Our memory">
+        <img src="photo2.jpeg" alt="Our memory">
+        
+
+    </div>
+
+    <!-- BUTTON -->
+    <button class="open-btn" onclick="openLetter()">
+        💌 Open My Letter
+    </button>
+
+    <!-- LETTER -->
+    <div id="letter">
+
+        <h2>I'm Really Sorry ❤️</h2>
+
+        <p>
+            Hey Nivii,
+        </p>
+
+        <p>
+            I don't really know how to put everything I'm feeling into words,
+            but I know one thing for sure that I am genuinely sorry.
+        </p>
+
+        <p>
+            I know I may have hurt you, disappointed you, or made things
+            harder than they needed to be. I can't go back and change what
+            happened, but I can take responsibility for it.
+        </p>
+
+        <p>
+            You mean so much more to me than any argument, misunderstanding
+            or bad moment between us. And honestly, the thought of losing
+            you hurts more than I can explain.
+        </p>
+
+        <p>
+            I'm not asking you to forget everything immediately or pretend
+            that nothing happened. I just want you to know that I understand
+            that I was wrong, and I'm genuinely sorry.
+        </p>
+
+        <p>
+            I hope you can find it in your heart to forgive me.
+            And if you need some time, I'll respect that too.
+        </p>
+
+        <p>
+            I love you, and I'm sorry. ❤️
+        </p>
+
+        <p class="signature">
+            Yours <br>
+            Anushka ❤️
+        </p>
+
+    </div>
+
+</div>
+
+<script>
+
+function openLetter() {
+    document.getElementById("letter").style.display = "block";
+
+    document.getElementById("letter").scrollIntoView({
+        behavior: "smooth"
+    });
+}
+
+/* Floating hearts */
+setInterval(function() {
+
+    const heart = document.createElement("div");
+
+    heart.className = "heart";
+    heart.innerHTML = "❤️";
+
+    heart.style.left = Math.random() * 100 + "vw";
+    heart.style.animationDuration =
+        (4 + Math.random() * 4) + "s";
+
+    document.body.appendChild(heart);
+
+    setTimeout(function() {
+        heart.remove();
+    }, 8000);
+
+}, 700);
+
+</script>
+
+</body>
+</html>
+    
